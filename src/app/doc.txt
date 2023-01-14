@@ -1,0 +1,18 @@
+run the application:
+
+ng build
+cd dist
+cd My 
+npx http-server
+
+
+Push Notofications:
+
+1)use the swPush in app html component(subscriping for the Notifictaions)
+2)Generate a key usign the web push libary(https://github.com/web-push-libs/web-push)
+   2.1)install it  (npm install web-push -g)
+   2.2)npx web-push generate-vapid-keys --json -->
+   {"publicKey":"BCTvTVjKF981uKf9UI-jFIeHWWyLWgRQa3VkT2RS-AxTXxS6t1vGJ0JDDUkmvvJ3lWC718DwDNuGYgGtxq5WB5U",
+   "privateKey":"tKP7zPA4jRN2KBgTKpoE2-3MOu1T_9M-cyi-CD6PLAw"}
+
+

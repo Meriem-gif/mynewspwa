@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+:root {
+    --font-roboto: "Roboto Slab", serif;
+    --font-raleway: "Raleway", sans-serif;
+  }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-roboto);
+
+}
+
+h3{
+    color:#827099;
+}
+
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #fec635;
+    padding-left: 10px;
+}
+.content{
+    padding: 10px 20px;
+    position: relative;
+}
+
+.favorite{
+    position:absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.card{
+      padding:10px 10px ;
+      background-color: #ebeef8b1;
+      box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+      transition:0.5s ease ;
+      cursor: pointer;
+}
+.card:hover{
+    transform: scale(0.9);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2); ;
+}
+.card h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn a:hover {
+    color: #827099;
+}
+.btn a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p{
+    margin: 5px;
+    color:#827099;
+    font-size: 18px;
+}
+
+span{
+    color:#fec635
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: opacity 500ms;
+  visibility: visible;
+    opacity: 1;
+  }
+  
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+

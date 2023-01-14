@@ -1,0 +1,28 @@
+1) Create angular project CLI
+2) Add Bootstrap
+3) Generate components( ng g c name)
+
+
+
+
+todo: Must have
+customize navbar
+add subscribe button
+add logo
+add spinner loading
+adding favorite button 
+
+
+todo:Nice to have
+login/logout:https://www.youtube.com/watch?v=sv76HcgjLZM&t=119s
+
+
+
+color palatte:
+    color: #e4dac6;
+    #634c80;
+    #fec635;
+    font-size: 2.5rem;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+
